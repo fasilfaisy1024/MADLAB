@@ -1,6 +1,5 @@
 package com.example.login;
 
-//import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -27,15 +26,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        String m="abc";
-        String n="xyz";
+        String m="fasil";
+        String n="nopassword";
         o=x.getText().toString();
         p=y.getText().toString();
         if(o.equals(m) && p.equals(n)) {
-            Toast.makeText(this, "successfull login", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Successfull login", Toast.LENGTH_SHORT).show();
         }
         else{
-            Toast.makeText(this,"login failed",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Login failed",Toast.LENGTH_SHORT).show();
         }
 
     }
