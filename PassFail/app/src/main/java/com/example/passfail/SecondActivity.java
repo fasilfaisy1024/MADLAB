@@ -26,10 +26,10 @@ public class SecondActivity extends AppCompatActivity {
                 markView.setText("Mark: " + mark);
 
                 if (p > 50)
-                    status.setText(name + " , NEE JAICHITTUM ORU KARYOM ILLA");
+                    status.setText(name + " , Congratulations,you've passed");
 
                 else
-                    status.setText("Time to leave the planet, " + name);
+                    status.setText("Better luck next time " + name);
             }
         }
     }
