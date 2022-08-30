@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
                                       @Override
                                       public void onClick(View v) {
 
-                                          Intent mapint = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:9.985017, 76.724802"));
+                                          Intent mapint = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:19.883002, 24.997813"));
                                           startActivity(mapint);
 
 
@@ -34,9 +34,9 @@ public class MainActivity extends Activity {
                                        public void onClick(View v) {
 
                                            Intent intent = new Intent(Intent.ACTION_SENDTO);
-                                           intent.setData(Uri.parse("mailto:")); // only email apps should handle this
-                                           intent.putExtra(Intent.EXTRA_EMAIL, "gokulvsnair@gmail.com");
-                                           intent.putExtra(Intent.EXTRA_SUBJECT, "Test mail");
+                                           intent.setData(Uri.parse("mailto:"));
+                                           intent.putExtra(Intent.EXTRA_EMAIL, "fasilfaisy1024@gmail.com");
+                                           intent.putExtra(Intent.EXTRA_SUBJECT, "NEW MAIL");
                                            startActivity(intent);
 
                                        }
